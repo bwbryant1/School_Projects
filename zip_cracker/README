@@ -1,0 +1,1465 @@
+Name: Brandon Bryant
+
+Steps to completion:
+	1) Brute force the hash passwords and then store the passwords
+	2) Extract the data from each password protected zip file using the found passwords
+	3) Perform steganalysis using the python console to be sure which RGB channel the message has been stegged on (Guess and Check)
+	4) Using the Image module from PIL open the image
+	5) Split the RGB channels into three different variables: Red,Green,Blue (this breaks the tuple into a one-D array)
+	6) AND each pixel with 1 to perform LSB extraction.
+	7) Pair each eight bytes and convert it into a char and print out the results
+
+	
+
+Message Extracted One:)
+Name of file: DCIM_2837.png
+Message:
+This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam Mulmi. This image is the exclusive property of Sangam Mulmi and is protected under the United States and International Copyright laws. Any unauthorized reproduction, manipulation, or distribution of this image is strictly prohibited. Copyrighted © 2015, Sangam M
+
+Hidden Message:
+File name: Mountain (copy).png
+Message:
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, surrounded
+Why'd you have to wait?
+Where were you? Where were you?
+Just a little late
+You found me, you found me
+-- THE FRAY --
+Lost and insecure
+You found me, you found me
+Lyin' on the floor
+Surrounded, 

@@ -1,0 +1,14 @@
+OWNER: Brandon Bryant
+
+to begin analysing the code we must first define what we are doing work on (the wrapper), and where we are going to place the output (output_folder). I created easy to use dictionary elements to store the files magic numbers and its filetype. we then check if the wrapper file actually exists (we exit if not). Once we've verified all this information, we then begin analysis. First we have to decode from base64. we then store the unencrypted data into a string representation of its hexified data. Next, we comb sequentially over the data looking for magic numbers specific to the first element in the array, then second, ..etc.  inside each iteration for each filetype we hash the found data and output it to a file containing the hash as its name followed by the extension.
+
+make the python file executable if not already
+--> $ chmod +x file_carving.py
+--> $ ./file_carving.py -w<filename_of_wrapper> -o<output_folder_name>
+
+E.g.
+
+--> $ ./file_carving.py -wcorrupted.docx -ofound_folder
+
+
+
